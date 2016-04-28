@@ -83,9 +83,9 @@ content-length: 77
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 428
+content-length: 312
 
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" s:l="{9C5902A4-6F9C-454B-ACCE-C7DDC12612A7}"><r uid="{43222D12-08C9-453B-AE96-D406EBB95126}"><p:d /></r><r uid="{4EC67EE1-81DC-4677-A4CB-5C7D1365E23C}" s:id="{CBDDC688-9BB1-4704-B6C1-B7AD29F8E6F8}" s:ph="main-content" /><r uid="{CF044AD9-0332-407A-ABDE-587214A2C808}"><p:d /></r><r uid="{B343725A-3A93-446E-A9C8-3A2CBD3DB489}"><p:d /></r></d></r>
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" s:l="{9C5902A4-6F9C-454B-ACCE-C7DDC12612A7}"><r uid="{43222D12-08C9-453B-AE96-D406EBB95126}"><p:d /></r><r uid="{CF044AD9-0332-407A-ABDE-587214A2C808}"><p:d /></r><r uid="{B343725A-3A93-446E-A9C8-3A2CBD3DB489}"><p:d /></r></d></r>
 ----field----
 field: {86FE4F77-4D9A-4EC3-9ED9-263D03BD1965}
 name: __Publish
@@ -319,7 +319,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 38ea58d9-bd7f-4a73-b431-27ecce83b8f7
+revision: 8bcb04b1-6bbc-4395-8651-298e41dfaf67
 
 ----field----
 field: {75577384-3C97-45DA-A847-81B00500E250}
@@ -332,10 +332,11 @@ Sitecore Experience Platform
 field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
 name: Text
 key: text
-content-length: 787
+content-length: 814
 
-<p style="line-height: 22px;">From a single connected platform that also integrates with other customer-facing platforms, to a single view of the customer in a big data marketing repository, to completely eliminating much of the complexity that has previously held marketers back, the latest version of Sitecore makes customer experience highly achievable. Learn how the latest version of Sitecore gives marketers the complete data, integrated tools, and automation capabilities to engage customers throughout an iterative lifecycle &ndash; the technology foundation absolutely necessary to win customers for life.</p>
-<p>For further information, please go to the <a href="https://doc.sitecore.net/" target="_blank" title="Sitecore Documentation site">Sitecore Documentation site</a></p>
+><p style="line-height: 22px;">Fra en enkelt forbundet platform, der også integrerer med andre kundevendte platforme, til et enkelt billede af kunden i et stor data marketing repository, der helt eliminere meget af den kompleksitet, der tidligere har holdt marketingfolk tilbage, den nyeste version af Sitecore gør kundeoplevelsen meget nemt opnåeligt. Lær, hvordan den nyeste version af Sitecore giver marketingfolk det komplette overblik, integrerede værktøjer og automatiserings kapaciteter til at engagere kunder i hele den iterativ livscyklus - teknologi fundamentet der er absolut nødvendigt for at vinde kunder for livet.</p>
+<p>For yderligere oplysninger, kan du gå til <a href="https://doc.sitecore.net/" target="_blank" title="Sitecore Documentation webstedet">Sitecore Documentation webstedet</a></p>
+
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
@@ -398,14 +399,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-38ea58d9-bd7f-4a73-b431-27ecce83b8f7
+8bcb04b1-6bbc-4395-8651-298e41dfaf67
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151109T083058Z
+20160427T150522Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

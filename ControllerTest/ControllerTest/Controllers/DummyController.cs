@@ -1,11 +1,14 @@
 ﻿using Sitecore.Mvc.Controllers;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using Sitecore.localhost;
+using Sitecore.Web;
 
 namespace ControllerTest.Controllers
 {
@@ -14,23 +17,17 @@ namespace ControllerTest.Controllers
         // GET: Dummy
         public async Task<ActionResult> Test()
         {
-            // download a bunch of URLs in parallel with await
-            var webClient = new WebClient();
+            WebClient webClient = new WebClient();
 
-            var urls = new[] {
-                "https://google.com",
-                "https://bing.com",
-                "https://yahoo.com"
-            }.Select(url => webClient.DownloadStringTaskAsync(url));
+            var response =
+                await
+                    webClient.DownloadStringTaskAsync(
+                        "http://maps.micello.com/webmapversion/scriptrequest?v=0&t=1461773950976&c=1#");
 
-            var contents = await Task.WhenAll(urls);
+            ViewBag.html = response;
 
-            // or just await one task
-            var google = await webClient.DownloadStringTaskAsync("https://google.com");
+            return  View(); 
 
-            // execution will pick up right here when all the awaited tasks are done - thawing the thread to finish execution
-
-            return View(contents);
         }
     }
 }
